@@ -16,15 +16,16 @@
 */
 // write your code here
 
+var accountBalance: Int
 
+accountBalance=0
 
 
 /*: question2
 ### 2. You went to your local pet store and purchased yourself a puppy. You decided to name the puppy Bella. Once you named her, that name will stick with her forever. Create a variable that stores the name of your new puppy.
 */
 // write your code here
-
-
+let bella = "Bella"
 
 
 /*: question3
@@ -32,7 +33,7 @@
 */
 // write your code here
 
-
+print(bella)
 
 
 /*: question4
@@ -40,7 +41,7 @@
 */
 // write your code here
 
-
+print("I just got a new puppy name \(bella) and she is awesome!")
 
 
 /*: question5
@@ -48,7 +49,7 @@
 */
 // write your code here
 
-
+print("I have $\(accountBalance) in my bank account")
 
 
 /*: question6
@@ -56,8 +57,8 @@
 */
 // write your code here
 
-
-
+accountBalance = accountBalance + 100
+print("I now have $\(accountBalance).")
 
 /*: question7
 ### 7. You decided you don't like the name Bella. Change your puppy's name to something else. (Can you do this? What happens when you try? Why?)
@@ -70,3 +71,4 @@
  
  */
 
+    
